@@ -171,7 +171,6 @@ player container desin
 
 .expenses {
     margin-top: 3vh;
-    margin-bottom: 10vh;
 }
 
 input {
@@ -184,6 +183,14 @@ input {
 
 input:focus {
     color: blue;
+}
+
+#calculate-total {
+    display: none;
+}
+
+.top-space {
+    margin-top: 10vh;
 }
 
 .grand-total {

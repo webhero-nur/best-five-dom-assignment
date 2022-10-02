@@ -5,6 +5,11 @@ function getFieldValueByID(fieldId) {
     return fieldValue;
 }
 
+function setFieldValueById(fieldId, value) {
+    const inputField = document.getElementById(fieldId);
+    inputField.value = value;
+}
+
 function getElementValueById(elementId) {
     const element = document.getElementById(elementId);
     const elementValueString = element.innerText;
@@ -26,4 +31,5 @@ function findValueToTwoFraction(value) {
 function clearFunc() {
     setElementValueById('player-total-expense', 0);
     setElementValueById('total-expense', 0);
+    document.getElementById('calculate-total').removeAttribute('style');
 }

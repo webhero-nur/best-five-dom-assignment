@@ -5,6 +5,10 @@ document.getElementById('player-total-calculate').addEventListener('click', func
 
     const playerExpenses = findValueToTwoFraction(totalPlayer * perPlayerCost);
     setElementValueById('player-total-expense', playerExpenses);
+
+    document.getElementById('calculate-total').setAttribute('style', 'display: block;');
+    setFieldValueById('manager-expense', '');
+    setFieldValueById('coach-expense', '');
 });
 
 document.getElementById('total-calculate').addEventListener('click', function () {
