@@ -175,8 +175,15 @@ player container desin
 }
 
 input {
-    padding: 1rem;
-    background-color: #bfe7ff;
+    padding: 0.75rem 0.5rem;
+    max-width: 50%;
+    background-color: whitesmoke;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+input:focus {
+    color: blue;
 }
 
 .grand-total {
