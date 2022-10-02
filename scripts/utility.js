@@ -17,6 +17,12 @@ function getElementValueById(elementId) {
     return elementValue;
 }
 
+function getPlayerNameElementValueById(elementId) {
+    const element = document.getElementById(elementId);
+    const elementValueString = element.innerText;
+    return elementValueString;
+}
+
 function setElementValueById(elementId, value) {
     const element = document.getElementById(elementId);
     element.innerText = value;

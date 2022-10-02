@@ -28,7 +28,6 @@ body {
 }
 
 .btn-design:hover {
-    cursor: pointer;
     background-color: #00D;
 }
 
@@ -68,12 +67,6 @@ body {
     display: flex;
     width: 90%;
     margin: 5vh auto;
-}
-
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    .main-container {
-        flex-direction: column-reverse;
-    }
 }
 
 /****************************
@@ -150,8 +143,17 @@ player container desin
     text-decoration: underline;
 }
 
-#player-list {
-    padding: 0 1rem;
+#players-container {
+    padding: 0 2rem 0 1rem;
+}
+
+#players-list {
+    font-size: 1.5rem;
+    padding-left: 2.5rem;
+}
+
+#players-list li {
+    margin: 1.5vh 0;
 }
 
 #no-selection-yet {
