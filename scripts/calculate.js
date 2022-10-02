@@ -13,6 +13,7 @@ document.getElementById('player-total-calculate').addEventListener('click', func
         else {
             alert('Expense cannot be empty or contain special character. Enter expenses in number format only without any extra symbole.');
             setFieldValueById('per-player-expense', '');
+            setElementValueById('player-total-expense', 0);
         }
     }
     else {
@@ -33,5 +34,6 @@ document.getElementById('total-calculate').addEventListener('click', function ()
         alert('Expense cannot be empty or contain special character. Enter expenses in number format only without any extra symbole.');
         setFieldValueById('manager-expense', '');
         setFieldValueById('coach-expense', '');
+        setElementValueById('total-expense', 0)
     }
 });

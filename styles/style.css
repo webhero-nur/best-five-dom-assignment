@@ -28,6 +28,7 @@ body {
 }
 
 .btn-design:hover {
+    cursor: pointer;
     background-color: #00D;
 }
 
