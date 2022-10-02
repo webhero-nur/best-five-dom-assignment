@@ -1,0 +1,82 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:wght@500&display=swap');
+
+
+/* utility design */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: black;
+}
+
+/* top banner design */
+
+#top-banner {
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/banner-player-bg-removed.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.banner-title {
+    font-size: 7rem;
+    color: #fa5d29;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.banner-text {
+    width: 40%;
+    color: #e4e3e9;
+    text-align: center;
+}
+
+
+/* footer design */
+.footer-container {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: whitesmoke;
+    margin: 2vh 0;
+}
+
+.social-links {
+    display: flex;
+    width: 8vw;
+    font-size: 2rem;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #8ab4f8;
+}
