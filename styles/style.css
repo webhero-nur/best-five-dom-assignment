@@ -32,10 +32,6 @@ body {
     background-color: #00D;
 }
 
-footer {
-    background-color: black;
-}
-
 /* top banner design */
 
 #top-banner {
@@ -56,7 +52,7 @@ footer {
 }
 
 .banner-title {
-    font-size: 7rem;
+    font-size: 6.5rem;
     color: #fa5d29;
     font-family: 'Berkshire Swash', cursive;
 }
@@ -125,6 +121,7 @@ player container desin
     font-size: 1.25rem;
     color: #666;
     font-weight: 300;
+    margin-bottom: 2.5vh;
 }
 
 /* select and calculate container */
@@ -195,6 +192,7 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .footer-text {
