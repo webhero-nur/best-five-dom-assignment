@@ -131,15 +131,17 @@ footer {
 
 /* select-container */
 #slected-container {
-    width: 100%;
+    width: 94%;
     margin-bottom: 1.5rem;
-    border: 1px solid;
+    padding: 2rem 3%;
+    /* border: 1px solid black; */
     background-color: #6fc2f5;
 }
 
 .selected-title {
-    padding: 3vh 0;
     text-align: center;
+    margin-bottom: 5vh;
+    text-decoration: underline;
 }
 
 #player-list {
