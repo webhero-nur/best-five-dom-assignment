@@ -57,7 +57,9 @@ footer {
     margin: 5vh auto;
 }
 
-/* player container desin */
+/****************************
+    player container desin 
+****************************/
 
 .players-container {
     width: 72%;
@@ -69,12 +71,11 @@ footer {
 
 .player-card {
     width: 94%;
-    /* width: 21vw; */
+    margin-right: 3%;
+    margin-left: 3%;
     background-color: #6fc2f5;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    margin-right: 3%;
-    margin-left: 3%;
     border-radius: 5px;
 }
 
@@ -96,10 +97,13 @@ footer {
 }
 
 .btn-design {
+    width: 94%;
+    margin: 0 3%;
+    padding: 0.75rem 1.75rem;
     background-color: #00F;
     color: whitesmoke;
-    padding: 0.75rem 1.75rem;
     font-size: 1rem;
+    border: 1px solid gray;
     border-radius: 0.5rem;
     font-weight: 700;
 }
@@ -112,8 +116,40 @@ footer {
 .player-performance {
     padding: 1vh 0;
     font-size: 1.25rem;
-    color: #707070;
+    color: #666;
+    font-weight: 300;
 }
+
+/* select and calculate container */
+.select-and-calculate {
+    width: 23%;
+    margin: 2vh 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* select-container */
+#slected-container {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border: 1px solid;
+    background-color: #6fc2f5;
+}
+
+.selected-title {
+    padding: 3vh 0;
+    text-align: center;
+}
+
+#player-list {
+    padding: 0 1rem;
+}
+
+#no-selection-yet {
+    color: #777;
+}
+
 
 /* footer design */
 .footer-container {
